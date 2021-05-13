@@ -4,16 +4,16 @@
     box-sizing: border-box;
     }
     body {
-    background: #e27442;
+    background: #6f6c86;
     }
     .todo-container {
     color: white;
     position: absolute;
-    top:50%;
-    left: 50%;
+    top:10%;
+    left: 10%;
     padding: 20px;
     width: 600px;
-    transform: translate(-50%,-50%);
+    transform: translate(-10%,-10%);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
@@ -92,13 +92,13 @@
     flex-grow: 2;
     }
     .todo-list-item .edit {
-    color : rgb(143, 233, 58);
+    color : rgb(233, 143, 58);
     margin-right: 10px;
     cursor:pointer;
     text-decoration: none;
     }
     .todo-list-item .remove {
-    color : rgb(243, 96, 96);
+    color : rgb(96, 214, 243);
     margin-right: 5px;
     cursor:pointer;
     text-decoration: none;
